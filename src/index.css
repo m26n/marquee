@@ -8,7 +8,7 @@
     }
     to {
       /* transform: translateX(calc(-100% - calc(var(--spacing) * 2))); */
-      transform: translateX(calc(-100% - var(--gap)));
+      transform: translateX(calc(-100% - var(--gap, 0px)));
     }
   }
 }
